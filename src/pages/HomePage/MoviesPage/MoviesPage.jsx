@@ -14,7 +14,6 @@ export default function MoviesPage() {
   const [totalPages, setTotalPages] = useState(null);
   const [searchParams, setSearchParams] = useSearchParams();
   const nameFilm = searchParams.get('name_film') ?? '';
-  // console.log(nameFilm);
 
   useEffect(() => {
     async function getMoviesByQuery() {

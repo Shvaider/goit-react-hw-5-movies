@@ -9,7 +9,6 @@ export const ListItem = styled.li`
 export const Img = styled.img`
   width: 100%;
   height: 400px;
-  /* object-fit: contain; */
 `;
 
 export const LinkItem = styled(Link)`
