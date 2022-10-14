@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
 import Layout from 'components/Layout/Layout';
+import { useEffect } from 'react';
+import { addBackToTop } from "vanilla-back-to-top";
 
 const HomePage = lazy(() => import('../pages/HomePage/HomePage'));
 const MoviesPage = lazy(() =>
@@ -11,6 +13,14 @@ const Cast = lazy(() => import('./Cast/Cast'));
 const Reviews = lazy(() => import('./Reviews/Reviews'));
 
 export const App = () => {
+  useEffect(() => {
+    addBackToTop({
+      diameter: 56,
+      backgroundColor: 'rgb(250, 235, 215)',
+      textColor: '#fff'
+    });
+  }, []);
+
   return (
     <>
       <Routes>

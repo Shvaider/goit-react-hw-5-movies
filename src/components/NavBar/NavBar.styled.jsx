@@ -3,10 +3,12 @@ import styled from 'styled-components';
 
 export const NavList = styled.ul`
   display: flex;
+  justify-content: center;
   text-align: center;
   list-style: none;
-  margin: 0;
-  margin-left: 200px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 `;
 
@@ -17,30 +19,14 @@ export const NavListItem = styled.li`
 `;
 
 export const NavListLink = styled(NavLink)`
-  // text-decoration: none;
-  // font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-  //   'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  // color: black;
-  // font-weight: 300;
-  // font-size: 30px;
-  // padding: 10px;
-  // transition: 250ms;
-  // border-radius: 5px;
-  // &.active {
-  //   color: #f2e9e4;
-  //   background-color: #4a4e69;
-  // }
-  // &:hover:not(.active) {
-  //   color: #9a8c98;
-  // }
-    padding: 8px 16px;
+  padding: 8px 16px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   display: block;
   font-size: 18px;
   min-width: 180px;
-  margin-bottom: 40px;
-  margin: 30px auto;
+  margin-bottom: 20px;
+  margin: 10px auto;
   cursor: pointer;
     position: relative;
     color: #171717;

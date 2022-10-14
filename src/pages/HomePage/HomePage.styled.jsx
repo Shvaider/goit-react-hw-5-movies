@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #171717;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.5) 1px 1px,
+    rgba(100, 100, 100, 0.3) 3px 7px 3px;
   margin: 0;
   margin-left: 200px;
 `;

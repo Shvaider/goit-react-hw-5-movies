@@ -27,5 +27,12 @@ export const Text = styled.p`
 `;
 
 export const Img = styled.img`
+  height: 250px;
   width: 100%;
+  object-fit: cover;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(1.08);
+    cursor:zoom-in;
+  }
 `;
