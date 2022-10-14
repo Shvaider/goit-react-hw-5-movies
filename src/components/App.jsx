@@ -16,7 +16,7 @@ export const App = () => {
   useEffect(() => {
     addBackToTop({
       diameter: 56,
-      backgroundColor: 'rgb(250, 235, 215)',
+      backgroundColor: 'rgb(75, 0, 130)',
       textColor: '#fff'
     });
   }, []);
